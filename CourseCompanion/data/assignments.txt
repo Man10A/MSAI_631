@@ -25,3 +25,120 @@ Deadlines (example for the bot):
 - Design document due around Week 7.
 - Code and results paper due near the end of the term.
 - Presentations delivered during the final weeks of class.
+
+Residency Weekend Assignments
+
+The course includes a dedicated module for assignments to be submitted during residency weekend.
+
+Weekly Module Breakdown
+Weeks 1–2: Foundations and Setup
+
+Learning Focus: Course introduction, development environment configuration, foundational AI/HCI concepts.
+
+Assignments:
+
+Introductions Discussion (Due January 11, 2026)
+
+GitHub Repository Exercise (Due January 18, 2026)
+
+Document Development Environment Setup Exercise (Due January 18, 2026)
+
+Weeks 3–4: AI and HCI Theory Integration
+
+Learning Focus: Theoretical interaction between AI systems and human-computer interaction principles.
+
+Assignments:
+
+AI and HCI Interactions and Synergies Report (Due January 25, 2026)
+
+Design Thinking in HCI/AI Report (Due February 1, 2026)
+
+Weeks 5–6: Chatbot Development and AI Integration
+
+Learning Focus: Conversational systems design and AI service integration.
+
+Assignments:
+
+Prototype Simple Traditional Chatbot Project (Due February 8, 2026)
+
+Integrate Traditional Chatbot with AI Service Project (Due February 15, 2026)
+
+Weeks 7–8: Conversational Agents and User-Centered Design
+
+Learning Focus: Advanced conversational design and usability principles.
+
+Assignments:
+
+Design a Conversational Agent Exercise (Due February 22, 2026)
+
+User-Centric Design Principles Report (Due March 1, 2026)
+
+Weeks 9–10: Usability and System Evaluation
+
+Learning Focus: Application evaluation, user experience assessment, and comparative analysis.
+
+Assignments:
+
+Evaluating User-Friendliness of an Application Report (Due March 8, 2026)
+
+Chatbots Compared to Virtual Assistants Report (Due March 15, 2026)
+
+Weeks 11–12: AI Recommendation Systems and Ethical Design
+
+Learning Focus: Recommender systems and ethical considerations in AI/HCI systems.
+
+Assignments:
+
+Recommendation System using AI/HCI Project (Due March 22, 2026)
+
+Identifying Ethical Challenges during AI/HCI Design Report (Due March 29, 2026)
+
+Weeks 13–14: Adaptive Interfaces and Accessibility
+
+Learning Focus: Intelligent interface adaptation and inclusive design standards.
+
+Assignments:
+
+Adaptive UI using AI/HCI Project (Due April 5, 2026)
+
+Accessibility Guidelines Report (Due April 12, 2026)
+
+Weeks 15–16: Bias and Reflection
+
+Learning Focus: AI bias in interfaces and course-wide reflection.
+
+Assignments:
+
+Bias in AI/HCI Interfaces Report (Due April 19, 2026)
+
+Reflection Discussion (Due April 22, 2026)
+
+The Reflection Discussion requires students to:
+
+Identify key learnings from the course
+
+Discuss strengths and areas for improvement
+
+Evaluate tools and resources used
+
+Engage with classmates by responding to two peers
+
+Course Progression Summary
+
+The course structure follows a deliberate trajectory:
+
+Technical Setup and Foundations
+
+Theoretical Integration of AI and HCI
+
+Practical Implementation (Chatbots & Conversational Agents)
+
+Usability Evaluation
+
+Ethical and Bias Considerations
+
+Adaptive and Accessible Design
+
+Reflective Professional Application
+
+This progression ensures that students not only build AI-enabled interfaces but also evaluate them through ethical, usability, and accessibility lenses.
