@@ -1,24 +1,139 @@
 Course: MSAI-631 Artificial Intelligence for Human-Computer Interaction
+Term: Spring 2026 Full Term
+Format: Hybrid
+CRN: 2026-SPRING-MAIN-MSAI-631-M30
+Residency Location: Seattle Campus
+Residency Dates: 02/27/2026 - 03/01/2026
+Residency Time: Friday/Saturday/Sunday | 8:00 AM - 10:00 PM
 
-This course explores how AI and HCI work together to create better interactive systems.
-Topics include design thinking, human-centered AI, conversational agents, multimodal
-interfaces, and evaluation methods.
+INSTRUCTOR INFORMATION
+Instructor Name: Jennifer Merritt
+Email: jennifer.merritt@ucumberlands.edu
+Phone: 224-858-5010
+Office Location: Remote
+Office Hours: Email to schedule appointment
 
-The course runs for a full term with weekly lectures, discussions, and assignments.
-Students are expected to complete readings, individual homework, and at least one
-group project involving an AI-based interactive system.
+COURSE DESCRIPTION
+This course examines the convergence of Artificial Intelligence (AI) and Human-Computer Interaction (HCI) and how they revolutionize the way humans interact with machines and digital systems. The course emphasizes the symbiotic relationship between AI and HCI and prepares students to design, develop, and evaluate intelligent interactive systems.
 
-Grading policy (example for the bot, not the real syllabus):
-- Homework and quizzes: 25%
-- Group project: 35%
-- Midterm and final assessments: 30%
-- Participation and attendance: 10%
+COURSE OBJECTIVES
+Upon completion of this course, students will:
+Understand foundational concepts of AI and HCI and how their integration shapes modern interactive systems.
+Apply user-centered design principles, usability heuristics, and accessibility guidelines.
+Integrate machine learning techniques such as classification, clustering, and pattern recognition into adaptive interfaces.
+Develop AI-powered natural language interfaces including conversational agents and chatbots.
+Identify ethical challenges including bias, privacy, transparency, and accountability in AI systems.
+Design, prototype, and evaluate AI-driven interactive systems using usability testing and iterative refinement.
 
-Late submission policy (example for the bot):
-Assignments submitted up to 24 hours late incur a 10% penalty on the earned score.
-Assignments submitted more than 24 hours late may receive a zero unless prior approval
-has been obtained from the instructor.
+LEARNER OUTCOMES
+Students will be able to:
+Analyze AI and HCI and their interaction.
+Analyze multimodal interfaces.
+Evaluate user-centric design principles.
+Create and discuss usability heuristics.
+Evaluate accessibility guidelines and their legal and ethical implications.
+Evaluate user-friendliness of applications.
+Apply AI techniques to improve user experience.
+Create a recommendation system using AI and HCI concepts.
+Apply NLP concepts such as tokenization in a chatbot.
+Evaluate prompt engineering techniques.
+Create an intelligent chatbot integrating a traditional chatbot with AI-as-a-Service (e.g., Azure Cognitive Services).
 
-Office hours:
-The instructor holds weekly office hours as listed in the official syllabus. Students
-should email the instructor to confirm times or request an appointment.
+COURSE WEBSITE
+Primary access via iLearn:
+https://www.ucumberlands.edu/ilearn/
+https://ucumberlands.blackboard.com/
+
+REQUIRED RESOURCES
+Book:
+Human-Centered AI
+Author: Ben Shneiderman
+ISBN: 9780192845290
+Publisher: Oxford University Press
+Publication Year: 2022
+
+Online Resource:
+The Encyclopedia of Human-Computer Interaction, 2nd Edition
+https://www.interaction-design.org/literature/book/the-encyclopedia-of-human-computer-interaction-2nd-ed
+
+GRADING SUMMARY
+Total Points: 1000
+
+Discussion: 8 points
+Project Reports (5): 200 points
+Short Reports (9): 162 points
+Report (1): 30 points
+
+Residency Components (60% of total grade):
+Project Proposal: 50 points
+Practical Connection: 50 points
+Project Design Documentation: 100 points
+Project Source Code: 100 points
+Presentation: 150 points
+Results Report: 150 points
+
+GRADING SCALE
+A: 900–1000 points (90–100%)
+B: 800–899 points (80–89%)
+C: 700–799 points (70–79%)
+F: Below 699 points
+
+ATTENDANCE POLICY
+Attendance is mandatory for residency sessions. Students may make up only one residency session during their academic program. Missing a second residency results in dismissal.
+Students must attend the full residency weekend. Late arrivals or early departures are not permitted.
+Missing a residency session requires a make-up session and payment of a $300 fee. Documentation may be required.
+
+PARTICIPATION POLICY
+Students are expected to actively participate in discussions, forums, synchronous sessions, and assignments. Non-participation may result in point deductions.
+
+LATE WORK POLICY
+Late assignments are not accepted unless prior arrangements have been made with the instructor.
+All deadlines follow Eastern Standard Time (EST).
+Failure to meet deadlines may result in penalties.
+
+ACADEMIC DISHONESTY POLICY
+Academic dishonesty includes:
+Cheating
+Lying or fabrication
+Plagiarism
+Multiple submissions without approval
+Penalties may include:
+Failing an assignment
+Failing the course
+Suspension or expulsion
+Revocation of degree
+
+DISABILITY ACCOMMODATIONS
+Students requiring accommodations must submit documentation to the Disability Services Coordinator. Accommodations are not retroactive.
+
+ACADEMIC APPEAL PROCESS
+Students must first discuss grade concerns with the instructor and department chair. Formal appeals must be filed within four weeks after the last day of class.
+
+COURSE SCHEDULE OVERVIEW
+Week 1: Chapters 1 and 10 – Introductions Discussion
+Week 2: Journal Articles – GitHub Repository Exercise
+Week 3: Chapter 2 – Development Environment Setup
+Week 4: Chapter 3 – AI and HCI Interactions
+Week 5: Chapter 8 – Design Thinking in HCI/AI
+Week 6: Chapter 9 – Traditional Chatbot Project
+Week 7: Journal Articles – Integrate Chatbot with AI Service
+Week 8: Conversational Agent Design Exercise
+Week 9: Chapters 5 and 6 – User-Centric Design Project
+Week 10: Evaluating User-Friendliness Project
+Week 11: Chatbots vs Virtual Assistants Report
+Week 12: Chapter 4 – Recommendation System Project
+Week 13: Ethical Challenges Exercise
+Week 14: Chapter 7 – Adaptive UI Project
+Week 15: Accessibility Guidelines Exercise
+Week 16: Bias in AI/HCI Interfaces Report and Reflections
+
+RESIDENCY DEADLINES
+02/27/2026 – Group Project Proposal (50 points)
+02/27/2026 – Practical Connection Assignment (50 points)
+02/28/2026 – Project Design Documentation (100 points)
+03/01/2026 – Project Source Code Submission (100 points)
+03/01/2026 – Project Presentation (150 points)
+03/01/2026 – Project Results Report (150 points)
+
+SYLLABUS DISCLAIMER
+The instructor reserves the right to modify the syllabus. Any changes will be communicated to students.
