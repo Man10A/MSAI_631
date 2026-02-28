@@ -1,0 +1,27 @@
+## assignments.txt
+Assignments Overview for MSAI-631 There are several individual assignments and one major group project. Individual assignments: - Short reflection papers on HCI readings. - Small programming exercises exploring simple chatbots and AI services. - Design-thinking homework where students analyze a real-life interaction problem. Group project: The group project is made up of five assignments: 1. Proposal: A 1–2 page document describing the planned application,
+
+## assignments.txt
+the problem it solves, and the tools and platforms to be used. 2. Design document: A 3–5 page document describing inputs, outputs, interaction flow, architecture, and anticipated limitations. 3. Source code: All code stored in an instructor-accessible Git repository and submitted as an archive file. 4. Results paper: A 5–7 page report describing what the team built, challenges, mitigation strategies, and lessons learned.
+
+## assignments.txt
+5. Presentation: Up to 20 slides summarizing the problem, solution, technologies, and project experience. Deadlines (example for the bot): - Proposal due around Week 4. - Design document due around Week 7. - Code and results paper due near the end of the term. - Presentations delivered during the final weeks of class.
+
+## syllabus.txt
+Course: MSAI-631 Artificial Intelligence for Human-Computer Interaction This course explores how AI and HCI work together to create better interactive systems. Topics include design thinking, human-centered AI, conversational agents, multimodal interfaces, and evaluation methods. The course runs for a full term with weekly lectures, discussions, and assignments. Students are expected to complete readings, individual homework, and at least one
+
+## syllabus.txt
+group project involving an AI-based interactive system. Grading policy (example for the bot, not the real syllabus): - Homework and quizzes: 25% - Group project: 35% - Midterm and final assessments: 30% - Participation and attendance: 10% Late submission policy (example for the bot): Assignments submitted up to 24 hours late incur a 10% penalty on the earned score. Assignments submitted more than 24 hours late may receive a zero unless prior approval has been obtained from the instructor.
+
+## syllabus.txt
+Office hours: The instructor holds weekly office hours as listed in the official syllabus. Students should email the instructor to confirm times or request an appointment.
+
+## topics.txt
+Key Topics in MSAI-631 Design thinking: Design thinking is a human-centered process for solving problems. It is often described with five stages: empathize, define, ideate, prototype, and test. The goal is to deeply understand users and iterate toward better solutions. Human-centered AI: Human-centered AI focuses on AI systems that support and augment people rather than replace them. It emphasizes transparency, control, trust, and alignment with human goals. Multimodal interaction:
+
+## topics.txt
+Multimodal interfaces support more than one mode of input and output, such as touch, speech, and visuals. In daily life, this can include voice assistants, gesture-based controls, and systems that combine text, images, and sound. Conversational agents and chatbots: Conversational agents allow users to interact with systems through natural language. They can be rule-based or powered by large language models. In this course, students explore simple chatbots as examples of AI-driven HCI.
+
+## topics.txt
+Retrieval-Augmented Generation (RAG): RAG combines information retrieval with language generation. First, the system retrieves relevant text chunks from a knowledge base, such as course documents. Then an LLM is used to generate an answer using only that retrieved context.
+

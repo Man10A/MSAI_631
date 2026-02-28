@@ -1,0 +1,25 @@
+Key Topics in MSAI-631
+
+Design thinking:
+Design thinking is a human-centered process for solving problems. It is often described
+with five stages: empathize, define, ideate, prototype, and test. The goal is to deeply
+understand users and iterate toward better solutions.
+
+Human-centered AI:
+Human-centered AI focuses on AI systems that support and augment people rather than
+replace them. It emphasizes transparency, control, trust, and alignment with human goals.
+
+Multimodal interaction:
+Multimodal interfaces support more than one mode of input and output, such as touch,
+speech, and visuals. In daily life, this can include voice assistants, gesture-based
+controls, and systems that combine text, images, and sound.
+
+Conversational agents and chatbots:
+Conversational agents allow users to interact with systems through natural language.
+They can be rule-based or powered by large language models. In this course, students
+explore simple chatbots as examples of AI-driven HCI.
+
+Retrieval-Augmented Generation (RAG):
+RAG combines information retrieval with language generation. First, the system retrieves
+relevant text chunks from a knowledge base, such as course documents. Then an LLM is
+used to generate an answer using only that retrieved context.

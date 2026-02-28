@@ -1,0 +1,27 @@
+Assignments Overview for MSAI-631
+
+There are several individual assignments and one major group project.
+
+Individual assignments:
+- Short reflection papers on HCI readings.
+- Small programming exercises exploring simple chatbots and AI services.
+- Design-thinking homework where students analyze a real-life interaction problem.
+
+Group project:
+The group project is made up of five assignments:
+1. Proposal: A 1–2 page document describing the planned application,
+   the problem it solves, and the tools and platforms to be used.
+2. Design document: A 3–5 page document describing inputs, outputs, interaction
+   flow, architecture, and anticipated limitations.
+3. Source code: All code stored in an instructor-accessible Git repository and
+   submitted as an archive file.
+4. Results paper: A 5–7 page report describing what the team built, challenges,
+   mitigation strategies, and lessons learned.
+5. Presentation: Up to 20 slides summarizing the problem, solution, technologies,
+   and project experience.
+
+Deadlines (example for the bot):
+- Proposal due around Week 4.
+- Design document due around Week 7.
+- Code and results paper due near the end of the term.
+- Presentations delivered during the final weeks of class.

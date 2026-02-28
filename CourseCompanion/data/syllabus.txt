@@ -1,0 +1,24 @@
+Course: MSAI-631 Artificial Intelligence for Human-Computer Interaction
+
+This course explores how AI and HCI work together to create better interactive systems.
+Topics include design thinking, human-centered AI, conversational agents, multimodal
+interfaces, and evaluation methods.
+
+The course runs for a full term with weekly lectures, discussions, and assignments.
+Students are expected to complete readings, individual homework, and at least one
+group project involving an AI-based interactive system.
+
+Grading policy (example for the bot, not the real syllabus):
+- Homework and quizzes: 25%
+- Group project: 35%
+- Midterm and final assessments: 30%
+- Participation and attendance: 10%
+
+Late submission policy (example for the bot):
+Assignments submitted up to 24 hours late incur a 10% penalty on the earned score.
+Assignments submitted more than 24 hours late may receive a zero unless prior approval
+has been obtained from the instructor.
+
+Office hours:
+The instructor holds weekly office hours as listed in the official syllabus. Students
+should email the instructor to confirm times or request an appointment.
