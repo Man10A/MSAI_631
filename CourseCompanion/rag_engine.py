@@ -31,19 +31,26 @@ SYSTEM_PROMPT = (
     "You are a helpful Course Companion chatbot for an AI/HCI class. "
     "You receive a student's question and some relevant course text. "
     "Answer clearly and concisely using only the provided context. "
-    "If the context does not contain the answer, say you are not sure and suggest checking the syllabus or asking the instructor."
+    "If the context does not contain the answer, say you are not sure and "
+    "suggest checking the full syllabus on iLearn or asking the instructor by email."
 )
 
-def retrieve_context(question: str, top_k: int = 3):
-    q_emb = _emb_model.encode([question])[0]
+
+def retrieve_context(question: str, top_k: int = 5):
+    """
+    Embed the (normalized) question and return the top_k most similar chunks.
+    """
+    q = question.strip()
+    q_emb = _emb_model.encode([q])[0]
     sims = _embeddings @ q_emb / (
         np.linalg.norm(_embeddings, axis=1) * np.linalg.norm(q_emb) + 1e-8
     )
     idxs = np.argsort(-sims)[:top_k]
     return [_chunks[i] for i in idxs]
 
+
 def answer_with_rag(question: str) -> str:
-    context_chunks = retrieve_context(question, top_k=3)
+    context_chunks = retrieve_context(question, top_k=5)
     context_text = "\n\n".join(context_chunks)
 
     messages = [

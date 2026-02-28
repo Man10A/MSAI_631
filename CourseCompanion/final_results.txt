@@ -1,0 +1,67 @@
+user: What percent of the final grade is weekly homework in MSAI-631?
+
+assistant: I am not sure what percent of the final grade is weekly homework in MSAI-631, as the provided context does not contain this information. I suggest checking the full syllabus on iLearn or asking the instructor, Jennifer Merritt, by email (jennifer.merritt@ucumberlands.edu) for more information.
+
+user: What is the one-day late penalty for homework in MSAI-631?
+
+assistant: I am not sure what the one-day late penalty for homework in MSAI-631 is. The provided context does not mention a specific penalty for late homework. I suggest checking the full syllabus on iLearn or asking the instructor by email for more information on late work policies.
+
+user: After how many days late does homework get a zero in MSAI-631?
+
+assistant: I'm not sure after how many days late homework gets a zero in MSAI-631. The provided context does not contain this information. I suggest checking the full syllabus on iLearn or asking the instructor, Jennifer Merritt, by email for more information on late assignment policies.
+
+user: What percent of the final grade is participation in MSAI-631?
+
+assistant: The context does not explicitly state the percentage of the final grade that is participation in MSAI-631. It only mentions that non-participation may result in point deductions, but it does not provide a specific percentage. I suggest checking the full syllabus on iLearn or asking the instructor by email for more information.
+
+user: How should students contact the MSAI-631 instructor, and what response time is stated?
+
+assistant: According to the provided context, students should contact the MSAI-631 instructor, Jennifer Merritt, via email (jennifer.merritt@ucumberlands.edu) to schedule an appointment or discuss any concerns. The response time is not explicitly stated in the provided context. If you need more information, I suggest checking the full syllabus on iLearn or asking the instructor by email.
+
+user: what is the instructor email?
+
+assistant: The instructor's email is jennifer.merritt@ucumberlands.edu.
+
+user: what is the instructors email and what is the topic for week 8?
+
+assistant: The instructor's email is jennifer.merritt@ucumberlands.edu. 
+
+The topic for Week 8 is Conversational Agent Design. The assignment for Week 8 involves researching conversational agent design methods and submitting a 2-3 page report in APA format.
+
+user: What percent of the final grade is the HCI group project in MSAI-631?
+
+assistant: The total points for the group project can be calculated by adding up the points for each of its components: 
+- Proposal: 50 points
+- Design document: 100 points
+- Source Code: 100 points
+- Presentation: 150 points
+- Results Report: 150 points
+Total points for the group project: 50 + 100 + 100 + 150 + 150 = 550 points
+
+The total points for the course can be determined from the grading scale: 
+- The minimum points for an A grade is 900 points.
+- The maximum points for a B grade is 899 points.
+- The minimum points for a B grade is 800 points.
+- The maximum points for a C grade is 799 points.
+- The minimum points for a C grade is 700 points.
+
+Given the provided grading scale, it appears that the total possible points for the course is 1000 points (the upper limit of the A grade range).
+
+To determine the percentage of the final grade that the HCI group project represents, we can divide the total points for the group project (550 points) by the total possible points for the course (1000 points), and then multiply by 100 to get the percentage: 
+(550 / 1000) * 100 = 55%
+
+So, the HCI group project is 55% of the final grade.
+
+user: What is the final due date for the HCI group project in MSAI-631?
+
+assistant: The final due date for the HCI group project in MSAI-631 is 04/22/2026 at 8:59 PM (PDT).
+
+user: What are the required deliverables for the HCI group project in MSAI-631?
+
+assistant: The required deliverables for the HCI group project in MSAI-631 are:
+
+1. Proposal: A 1–2 page document describing the planned application, the problem it solves, and the tools and platforms to be used.
+2. Design document: A 3–5 page document describing inputs, outputs, interaction flow, architecture, and anticipated limitations.
+3. Source code: All code stored in an instructor-accessible Git repository and submitted as an archive file.
+4. Results paper: A 5–7 page report describing what the team built, challenges, mitigation strategies, and lessons learned.
+5. Presentation: Up to 20 slides summarizing the problem, solution, technologies, and project experience.

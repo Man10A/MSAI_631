@@ -1,20 +1,89 @@
 ## assignments.txt
-Assignments Overview for MSAI-631 There are several individual assignments and one major group project. Individual assignments: - Short reflection papers on HCI readings. - Small programming exercises exploring simple chatbots and AI services. - Design-thinking homework where students analyze a real-life interaction problem. Group project: The group project is made up of five assignments: 1. Proposal: A 1–2 page document describing the planned application,
+Assignments Overview for Course: MSAI-631 Artificial Intelligence for Human-Computer Interaction Term: Spring 2026 There are several individual assignments and one major group project. Group project: The group project is made up of five assignments: 1. Proposal: A 1–2 page document describing the planned application, the problem it solves, and the tools and platforms to be used. 2. Design document: A 3–5 page document describing inputs, outputs, interaction
 
 ## assignments.txt
-the problem it solves, and the tools and platforms to be used. 2. Design document: A 3–5 page document describing inputs, outputs, interaction flow, architecture, and anticipated limitations. 3. Source code: All code stored in an instructor-accessible Git repository and submitted as an archive file. 4. Results paper: A 5–7 page report describing what the team built, challenges, mitigation strategies, and lessons learned.
+flow, architecture, and anticipated limitations. 3. Source code: All code stored in an instructor-accessible Git repository and submitted as an archive file. 4. Results paper: A 5–7 page report describing what the team built, challenges, mitigation strategies, and lessons learned. 5. Presentation: Up to 20 slides summarizing the problem, solution, technologies, and project experience. Individual assignments: - Short reflection papers on HCI readings.
 
 ## assignments.txt
-5. Presentation: Up to 20 slides summarizing the problem, solution, technologies, and project experience. Deadlines (example for the bot): - Proposal due around Week 4. - Design document due around Week 7. - Code and results paper due near the end of the term. - Presentations delivered during the final weeks of class.
+- Small programming exercises exploring simple chatbots and AI services. - Design-thinking homework where students analyze a real-life interaction problem. WEEK 1–2: INTRODUCTION DISCUSSION AND GITHUB SETUP Assignment 1: Introduction Discussion Description: Post a self-introduction of at least 150 words using correct spelling and grammar. Peer replies are encouraged but not required. Due Date: 01/18/2026 at 8:59 PM (PST) Assignment 2: GitHub Repository Exercise Description:
+
+## assignments.txt
+Create (or use an existing) GitHub account and provision a repository for this course. Share the repository with the instructor and ensure read permissions are enabled. Write a 2–3 page report discussing: The process of creating/selecting a GitHub account Creating the repository Challenges encountered Resolution steps Screenshots with named figures referenced in the narrative Due Date: 01/18/2026 at 8:59 PM (PST) WEEK 3–4: DEVELOPMENT ENVIRONMENT AND AI/HCI REPORT
+
+## assignments.txt
+Assignment 3: Development Environment Setup Exercise Description: Create a development environment linked to your course DevOps repository. Write a 2–3 page APA-formatted report including: Title page and references Screenshots Challenges encountered Mitigation strategies Any development tool is acceptable if it integrates with GitHub. Due Date: 01/18/2026 at 8:59 PM (PST) Assignment 4: AI and HCI Interactions and Synergies Report Description:
+
+## assignments.txt
+Discuss how computers and microcontrollers are present in your daily life. Include: Examples of AI tools (e.g., ChatGPT or other AI systems) Discussion of multimodal interfaces Explanation of HCI concepts Images, screenshots, or videos Length: 2–3 pages, APA format Due Date: 01/25/2026 at 8:59 PM (PST) WEEK 5: DESIGN THINKING REPORT Assignment 5: Design Thinking in HCI/AI Report Description: Define Design Thinking and explain how it impacts AI and HCI. Include:
+
+## assignments.txt
+Definition and examples of Design Thinking How HCI/AI benefits from Design Thinking Whether Design Thinking is appropriate for simple tasks References and citations Length: 2–3 pages, APA format Due Date: 02/01/2026 at 8:59 PM (PST) WEEK 6: TRADITIONAL CHATBOT PROJECT Assignment 6: Prototype Simple Traditional Chatbot Project Description: Create a traditional (non-LLM-based) chatbot. Submit: 5–7 page APA report describing development lifecycle Narrative explanation (not just images)
+
+## assignments.txt
+ZIP archive of project files GitHub repository URL It is acceptable if the solution does not fully execute, provided learning and challenges are documented. Due Date: 02/08/2026 at 8:59 PM (PST) WEEK 7: INTEGRATE CHATBOT WITH AI SERVICE Assignment 7: Integrate Traditional Chatbot with AI Service Description: Integrate your chatbot with Azure AI Services (free tier). Submit: 5–7 page APA report Discussion of challenges and lessons learned ZIP archive of source code GitHub repository URL
+
+## assignments.txt
+Due Date: 02/15/2026 at 8:59 PM (PST) WEEK 8: CONVERSATIONAL AGENT DESIGN Assignment 8: Design a Conversational Agent Exercise Description: Research conversational agent design methods. Include: Screenshots if AI tools were used Learning process Effectiveness of approach A simple conversational agent design Discussion of Conversational User Experience (CUX) Length: 2–3 pages, APA format Due Date: 02/22/2026 at 8:59 PM (PST) WEEK 9: USER-CENTRIC DESIGN REPORT
+
+## assignments.txt
+Assignment 9: User-Centric Design Principles Report Description: Research and define user-centered design principles. Include: Usability heuristics Evaluation methods AI’s impact on user design Everyday examples 5–7 pages, APA format Due Date: 03/01/2026 at 8:59 PM (PST) WEEK 10: EVALUATING USER-FRIENDLINESS Assignment 10: Evaluating User-Friendliness of an Application Report Description: Define user-friendliness (with citation). Discuss: Methods of evaluating usability
+
+## assignments.txt
+Overlap between usability and user-friendliness Valuable learning resources Ineffective resources Length: 5–7 pages, APA format Due Date: 03/08/2026 at 9:59 PM (PDT) WEEK 11: CHATBOTS VS VIRTUAL ASSISTANTS Assignment 11: Chatbots Compared to Virtual Assistants Report Description: Define chatbots and virtual assistants. Discuss: Similarities and differences Interaction examples Maturity of technology Future predictions (5-year outlook) 2–4 pages, APA format Due Date: 03/15/2026 at 8:59 PM (PDT)
+
+## assignments.txt
+WEEK 12: RECOMMENDATION SYSTEM PROJECT Assignment 12: Recommendation System using AI/HCI Project Description: Create a recommendation system using AI techniques. Submit: 5–7 page APA report Theoretical foundations and practical applications Modified version of an existing example ZIP archive of source code GitHub repository URL Due Date: 03/22/2026 at 9:59 PM (PDT) WEEK 13: ETHICAL CHALLENGES REPORT Assignment 13: Identifying Ethical Challenges during AI/HCI Design Report Description:
+
+## assignments.txt
+Research methods to identify ethical challenges in AI/HCI design. Requirements: 4 scholarly articles Define ethical AI Identify challenges and solutions 2–3 pages, APA format Due Date: 03/29/2026 at 8:59 PM (PDT) WEEK 14: ADAPTIVE UI PROJECT Assignment 14: Adaptive UI using AI/HCI Project Description: Create an adaptive user interface using AI-related technologies. Include: 5–7 page APA report Definitions of adaptive UI and intelligent user interfaces Discussion of AI-based adaptation
+
+## assignments.txt
+ZIP archive of solution GitHub repository URL Disclosure of AI tools used Due Date: 04/05/2026 at 9:59 PM (PDT) WEEK 15: ACCESSIBILITY GUIDELINES REPORT Assignment 15: Accessibility Guidelines Report Description: Discuss legal and ethical implications of accessibility guidelines. Include: Privacy and transparency discussion Screenshots of tools used Evaluation of tools Personal opinion with justification 2–3 pages, APA format Due Date: 04/12/2026 at 8:59 PM (PDT)
+
+## assignments.txt
+WEEK 16: BIAS IN AI/HCI REPORT AND REFLECTION Assignment 16: Bias in AI/HCI Interfaces Report Description: Discuss AI bias. Include: Definition with citation Causes of bias Prevention strategies Examples with screenshots 2–4 pages, APA format Due Date: 04/19/2026 at 9:59 PM (PDT) Assignment 17: Final Reflection Discussion Description: Reflect on course learning. Discuss: What you learned What worked well What needs improvement Most helpful tools Least helpful resources Reply to two classmates.
+
+## assignments.txt
+Due Date: 04/22/2026 at 8:59 PM (PDT)
 
 ## syllabus.txt
-Course: MSAI-631 Artificial Intelligence for Human-Computer Interaction This course explores how AI and HCI work together to create better interactive systems. Topics include design thinking, human-centered AI, conversational agents, multimodal interfaces, and evaluation methods. The course runs for a full term with weekly lectures, discussions, and assignments. Students are expected to complete readings, individual homework, and at least one
+Course: MSAI-631 Artificial Intelligence for Human-Computer Interaction Term: Spring 2026 Full Term Format: Hybrid CRN: 2026-SPRING-MAIN-MSAI-631-M30 Residency Location: Seattle Campus Residency Dates: 02/27/2026 - 03/01/2026 Residency Time: Friday/Saturday/Sunday | 8:00 AM - 10:00 PM INSTRUCTOR INFORMATION Instructor Name: Jennifer Merritt Email: jennifer.merritt@ucumberlands.edu Phone: 224-858-5010 Office Location: Remote Office Hours: Email to schedule appointment COURSE DESCRIPTION
 
 ## syllabus.txt
-group project involving an AI-based interactive system. Grading policy (example for the bot, not the real syllabus): - Homework and quizzes: 25% - Group project: 35% - Midterm and final assessments: 30% - Participation and attendance: 10% Late submission policy (example for the bot): Assignments submitted up to 24 hours late incur a 10% penalty on the earned score. Assignments submitted more than 24 hours late may receive a zero unless prior approval has been obtained from the instructor.
+This course examines the convergence of Artificial Intelligence (AI) and Human-Computer Interaction (HCI) and how they revolutionize the way humans interact with machines and digital systems. The course emphasizes the symbiotic relationship between AI and HCI and prepares students to design, develop, and evaluate intelligent interactive systems. COURSE OBJECTIVES Upon completion of this course, students will:
 
 ## syllabus.txt
-Office hours: The instructor holds weekly office hours as listed in the official syllabus. Students should email the instructor to confirm times or request an appointment.
+Understand foundational concepts of AI and HCI and how their integration shapes modern interactive systems. Apply user-centered design principles, usability heuristics, and accessibility guidelines. Integrate machine learning techniques such as classification, clustering, and pattern recognition into adaptive interfaces. Develop AI-powered natural language interfaces including conversational agents and chatbots.
+
+## syllabus.txt
+Identify ethical challenges including bias, privacy, transparency, and accountability in AI systems. Design, prototype, and evaluate AI-driven interactive systems using usability testing and iterative refinement. LEARNER OUTCOMES Students will be able to: Analyze AI and HCI and their interaction. Analyze multimodal interfaces. Evaluate user-centric design principles. Create and discuss usability heuristics. Evaluate accessibility guidelines and their legal and ethical implications.
+
+## syllabus.txt
+Evaluate user-friendliness of applications. Apply AI techniques to improve user experience. Create a recommendation system using AI and HCI concepts. Apply NLP concepts such as tokenization in a chatbot. Evaluate prompt engineering techniques. Create an intelligent chatbot integrating a traditional chatbot with AI-as-a-Service (e.g., Azure Cognitive Services). COURSE WEBSITE Primary access via iLearn: https://www.ucumberlands.edu/ilearn/ https://ucumberlands.blackboard.com/ REQUIRED RESOURCES
+
+## syllabus.txt
+Book: Human-Centered AI Author: Ben Shneiderman ISBN: 9780192845290 Publisher: Oxford University Press Publication Year: 2022 Online Resource: The Encyclopedia of Human-Computer Interaction, 2nd Edition https://www.interaction-design.org/literature/book/the-encyclopedia-of-human-computer-interaction-2nd-ed GRADING SUMMARY Total Points: 1000 Discussion: 8 points Project Reports (5): 200 points Short Reports (9): 162 points Report (1): 30 points Residency Components (60% of total grade):
+
+## syllabus.txt
+Project Proposal: 50 points Practical Connection: 50 points Project Design Documentation: 100 points Project Source Code: 100 points Presentation: 150 points Results Report: 150 points GRADING SCALE A: 900–1000 points (90–100%) B: 800–899 points (80–89%) C: 700–799 points (70–79%) F: Below 699 points ATTENDANCE POLICY Attendance is mandatory for residency sessions. Students may make up only one residency session during their academic program. Missing a second residency results in dismissal.
+
+## syllabus.txt
+Students must attend the full residency weekend. Late arrivals or early departures are not permitted. Missing a residency session requires a make-up session and payment of a $300 fee. Documentation may be required. PARTICIPATION POLICY Students are expected to actively participate in discussions, forums, synchronous sessions, and assignments. Non-participation may result in point deductions. LATE WORK POLICY
+
+## syllabus.txt
+Late assignments are not accepted unless prior arrangements have been made with the instructor. All deadlines follow Eastern Standard Time (EST). Failure to meet deadlines may result in penalties. ACADEMIC DISHONESTY POLICY Academic dishonesty includes: Cheating Lying or fabrication Plagiarism Multiple submissions without approval Penalties may include: Failing an assignment Failing the course Suspension or expulsion Revocation of degree DISABILITY ACCOMMODATIONS
+
+## syllabus.txt
+Students requiring accommodations must submit documentation to the Disability Services Coordinator. Accommodations are not retroactive. ACADEMIC APPEAL PROCESS Students must first discuss grade concerns with the instructor and department chair. Formal appeals must be filed within four weeks after the last day of class. COURSE SCHEDULE OVERVIEW Week 1: Chapters 1 and 10 – Introductions Discussion Week 2: Journal Articles – GitHub Repository Exercise
+
+## syllabus.txt
+Week 3: Chapter 2 – Development Environment Setup Week 4: Chapter 3 – AI and HCI Interactions Week 5: Chapter 8 – Design Thinking in HCI/AI Week 6: Chapter 9 – Traditional Chatbot Project Week 7: Journal Articles – Integrate Chatbot with AI Service Week 8: Conversational Agent Design Exercise Week 9: Chapters 5 and 6 – User-Centric Design Project Week 10: Evaluating User-Friendliness Project Week 11: Chatbots vs Virtual Assistants Report Week 12: Chapter 4 – Recommendation System Project
+
+## syllabus.txt
+Week 13: Ethical Challenges Exercise Week 14: Chapter 7 – Adaptive UI Project Week 15: Accessibility Guidelines Exercise Week 16: Bias in AI/HCI Interfaces Report and Reflections RESIDENCY DEADLINES 02/27/2026 – Group Project Proposal (50 points) 02/27/2026 – Practical Connection Assignment (50 points) 02/28/2026 – Project Design Documentation (100 points) 03/01/2026 – Project Source Code Submission (100 points) 03/01/2026 – Project Presentation (150 points)
+
+## syllabus.txt
+03/01/2026 – Project Results Report (150 points) SYLLABUS DISCLAIMER The instructor reserves the right to modify the syllabus. Any changes will be communicated to students.
 
 ## topics.txt
 Key Topics in MSAI-631 Design thinking: Design thinking is a human-centered process for solving problems. It is often described with five stages: empathize, define, ideate, prototype, and test. The goal is to deeply understand users and iterate toward better solutions. Human-centered AI: Human-centered AI focuses on AI systems that support and augment people rather than replace them. It emphasizes transparency, control, trust, and alignment with human goals. Multimodal interaction:
