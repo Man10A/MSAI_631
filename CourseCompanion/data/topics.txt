@@ -4,22 +4,76 @@ Design thinking:
 Design thinking is a human-centered process for solving problems. It is often described
 with five stages: empathize, define, ideate, prototype, and test. The goal is to deeply
 understand users and iterate toward better solutions.
+Source: https://video.alexanderstreet.com/watch/design-thinking-3
 
 Human-centered AI:
 Human-centered AI focuses on AI systems that support and augment people rather than
 replace them. It emphasizes transparency, control, trust, and alignment with human goals.
+Source: complete-course-explanation.docx synthesis
 
 Multimodal interaction:
 Multimodal interfaces support more than one mode of input and output, such as touch,
 speech, and visuals. In daily life, this can include voice assistants, gesture-based
 controls, and systems that combine text, images, and sound.
+Source: complete-course-explanation.docx synthesis
 
 Conversational agents and chatbots:
 Conversational agents allow users to interact with systems through natural language.
-They can be rule-based or powered by large language models. In this course, students
-explore simple chatbots as examples of AI-driven HCI.
+They can be rule-based or powered by large language models. Good chatbots use clear
+flows, polite error handling, and simple language, and they often provide a way to
+reach a human when needed.
+Source: https://learn.microsoft.com/en-us/azure/bot-service/bot-service-overview?view=azure-bot-service-4.0
 
 Retrieval-Augmented Generation (RAG):
 RAG combines information retrieval with language generation. First, the system retrieves
 relevant text chunks from a knowledge base, such as course documents. Then an LLM is
-used to generate an answer using only that retrieved context.
+used to generate an answer using only that retrieved context. This helps reduce
+hallucinations and keeps answers grounded in real documents.
+Source: complete-course-explanation.docx synthesis
+
+User-centered design (UCD):
+User-centered design means starting from real users’ goals, tasks, and contexts instead
+of starting from the technology. Designers use empathy, user research, and iteration to
+make systems simple, clear, accessible, and under the user’s control. UCD is the
+“practice side” of HCI: it turns research about how people think and work into concrete
+interface decisions.
+Source: https://www.interaction-design.org/literature/topics/user-centered-design
+
+Human–computer interaction (HCI) and human–AI systems:
+HCI studies how people interact with computers and digital systems: how they perceive
+screens, make mistakes, feel frustrated, or enjoy interfaces. Modern HCI also covers
+human–AI systems, where AI acts as an assistant or partner. The key idea is that
+technology should adapt to people, not the other way around.
+Source: Chignell et al. (2023) summary via Google Scholar
+
+Usability and UX for public services:
+Government UX guidance stresses clear tasks, plain language, mobile-friendly layouts,
+and strong accessibility. Designers are encouraged to test with real users, fix problems
+based on evidence, and make sure websites work for people with disabilities and
+different backgrounds. When AI is added to public services, these same principles still
+apply.
+Source: https://digital.gov/topics/usability/
+
+AI and HCI interactions and synergies:
+AI brings learning, prediction, and automation; HCI brings methods to keep systems
+usable, accessible, and fair. Together they create human–AI systems where people stay
+in control, can understand what the AI is doing, and can question or override decisions.
+Examples include recommendation systems, medical decision-support tools, and AI
+assistants that are designed for trust and transparency.
+Source: complete-course-explanation.docx synthesis
+
+AI-powered chatbots and conversational agents:
+Modern chatbots combine HCI and AI: they use natural language interfaces, often across
+channels like web, mobile, and chat apps. Good design for bots means clear intents,
+helpful error messages (“Did you mean…?”), an easy way to reach a human, and
+protection of privacy. AI models handle understanding and generation, while the HCI
+layer shapes the conversation flow and user experience.
+Source: https://learn.microsoft.com/en-us/azure/bot-service/bot-service-overview?view=azure-bot-service-4.0
+
+Personalization vs customization in AI systems:
+Personalization is when the system adapts automatically based on data and predictions;
+customization is when users manually change settings and preferences. Both can improve
+experience, but they must be transparent and reversible so users understand what is
+happening and can stay in control. In AI systems, designers need to explain why content
+is recommended and give clear options to change or turn off personalization.
+Source: https://www.nngroup.com/articles/customization-personalization/
