@@ -1,11 +1,8 @@
-Assignments Overview for MSAI-631
+Assignments Overview for 
+Course: MSAI-631 Artificial Intelligence for Human-Computer Interaction
+Term: Spring 2026
 
 There are several individual assignments and one major group project.
-
-Individual assignments:
-- Short reflection papers on HCI readings.
-- Small programming exercises exploring simple chatbots and AI services.
-- Design-thinking homework where students analyze a real-life interaction problem.
 
 Group project:
 The group project is made up of five assignments:
@@ -20,205 +17,202 @@ The group project is made up of five assignments:
 5. Presentation: Up to 20 slides summarizing the problem, solution, technologies,
    and project experience.
 
-Deadlines (example for the bot):
-- Proposal due around Week 4.
-- Design document due around Week 7.
-- Code and results paper due near the end of the term.
-- Presentations delivered during the final weeks of class.
-
-Artificial Intelligence for Human-Computer Interaction (MSAI-631-M30)
-
-Spring 2026 – University of the Cumberlands
-
-1. Course Overview
-
-This course integrates Artificial Intelligence (AI) with Human-Computer Interaction (HCI), emphasizing conversational systems, adaptive interfaces, usability evaluation, ethical design, accessibility, and bias mitigation.
-
-2. Course Resources
-
-Start Here Module
-
-Welcome message
-
-Critical course information
-
-Syllabus
-
-Course Materials
-
-Tutor.com Access
-
-Online tutoring support
-
-Contact: tlc@ucumberlands.edu
-
-Course Faculty
-
-Jennifer Merritt – Instructor
-
-Machica McClain – Program Director
-
-Additional Tools
-
-Class Roster
-
-Class Collaborate
-
-Books & Tools
-
-3. Residency Weekend
-
-Module includes assignments submitted during residency weekend.
-
-4. Weekly Modules and Assignments
-4.1 Weeks 1–2: Foundations and Environment Setup
-
-Learning Focus:
-Course orientation, development setup, foundational AI/HCI concepts.
-
-Assignments:
-
-Introductions Discussion
-
-Due: January 11, 2026 (8:59 PM PST)
-
-GitHub Repository Exercise
-
-Due: January 18, 2026 (8:59 PM PST)
-
-Document Development Environment Setup Exercise
-
-Due: January 18, 2026 (8:59 PM PST)
-
-4.2 Weeks 3–4: AI and HCI Theory Integration
-
-Learning Focus:
-Theoretical interaction between AI systems and human-computer interaction.
-
-Assignments:
-
-AI and HCI Interactions and Synergies Report
-
-Due: January 25, 2026 (8:59 PM PST)
-
-Design Thinking in HCI/AI Report
-
-Due: February 1, 2026 (8:59 PM PST)
-
-4.3 Weeks 5–6: Chatbot Development and AI Integration
-
-Learning Focus:
-Conversational system design and AI service integration.
-
-Assignments:
-
-Prototype Simple Traditional Chatbot Project
-
-Due: February 8, 2026 (8:59 PM PST)
-
-Integrate Traditional Chatbot with AI Service Project
-
-Due: February 15, 2026 (8:59 PM PST)
-
-4.4 Weeks 7–8: Conversational Agents and User-Centered Design
-
-Learning Focus:
-Advanced conversational design and usability principles.
-
-Assignments:
-
-Design a Conversational Agent Exercise
-
-Due: February 22, 2026 (8:59 PM PST)
-
-User-Centric Design Principles Report
-
-Due: March 1, 2026 (8:59 PM PST)
-
-4.5 Weeks 9–10: Usability and System Evaluation
-
-Learning Focus:
-Application evaluation, user experience assessment, and comparative analysis.
-
-Assignments:
-
-Evaluating User-Friendliness of an Application Report
-
-Due: March 8, 2026 (9:59 PM PDT)
-
-Chatbots Compared to Virtual Assistants Report
-
-Due: March 15, 2026 (8:59 PM PDT)
-
-4.6 Weeks 11–12: Recommendation Systems and Ethical Design
-
-Learning Focus:
-AI-driven recommendation systems and ethical challenges in AI/HCI systems.
-
-Assignments:
-
-Recommendation System using AI/HCI Project
-
-Due: March 22, 2026 (9:59 PM PDT)
-
-Identifying Ethical Challenges during AI/HCI Design Report
-
-Due: March 29, 2026 (8:59 PM PDT)
-
-4.7 Weeks 13–14: Adaptive Interfaces and Accessibility
-
-Learning Focus:
-Adaptive UI systems and accessibility compliance.
-
-Assignments:
-
-Adaptive UI using AI/HCI Project
-
-Due: April 5, 2026 (9:59 PM PDT)
-
-Accessibility Guidelines Report
-
-Due: April 12, 2026 (8:59 PM PDT)
-
-4.8 Weeks 15–16: Bias and Reflection
-
-Learning Focus:
-Bias in AI interfaces and comprehensive course reflection.
-
-Assignments:
-
-Bias in AI/HCI Interfaces Report
-
-Due: April 19, 2026 (9:59 PM PDT)
-
-Reflection Discussion
-
-Due: April 22, 2026 (8:59 PM PDT)
-
-Reflection requirements:
-
-Discuss key learning outcomes
-
-Identify strengths and areas for improvement
-
-Evaluate tools and resources
-
-Respond to two classmates
-
-5. Course Progression Model
-
-The course follows a structured progression:
-
-Technical Setup
-
-AI–HCI Theoretical Foundations
-
-Conversational System Development
-
-Usability Evaluation
-
-Ethical and Bias Analysis
-
-Adaptive and Accessible Design
-
-Professional Reflection
+Individual assignments:
+- Short reflection papers on HCI readings.
+- Small programming exercises exploring simple chatbots and AI services.
+- Design-thinking homework where students analyze a real-life interaction problem.
+
+WEEK 1–2: INTRODUCTION DISCUSSION AND GITHUB SETUP
+Assignment 1: Introduction Discussion
+Description:
+Post a self-introduction of at least 150 words using correct spelling and grammar. Peer replies are encouraged but not required.
+Due Date: 01/18/2026 at 8:59 PM (PST)
+
+Assignment 2: GitHub Repository Exercise
+Description:
+Create (or use an existing) GitHub account and provision a repository for this course. Share the repository with the instructor and ensure read permissions are enabled.
+Write a 2–3 page report discussing:
+The process of creating/selecting a GitHub account
+Creating the repository
+Challenges encountered
+Resolution steps
+Screenshots with named figures referenced in the narrative
+Due Date: 01/18/2026 at 8:59 PM (PST)
+
+WEEK 3–4: DEVELOPMENT ENVIRONMENT AND AI/HCI REPORT
+Assignment 3: Development Environment Setup Exercise
+Description:
+Create a development environment linked to your course DevOps repository.
+Write a 2–3 page APA-formatted report including:
+Title page and references
+Screenshots
+Challenges encountered
+Mitigation strategies
+Any development tool is acceptable if it integrates with GitHub.
+Due Date: 01/18/2026 at 8:59 PM (PST)
+
+Assignment 4: AI and HCI Interactions and Synergies Report
+Description:
+Discuss how computers and microcontrollers are present in your daily life.
+Include:
+Examples of AI tools (e.g., ChatGPT or other AI systems)
+Discussion of multimodal interfaces
+Explanation of HCI concepts
+Images, screenshots, or videos
+Length: 2–3 pages, APA format
+Due Date: 01/25/2026 at 8:59 PM (PST)
+
+WEEK 5: DESIGN THINKING REPORT
+Assignment 5: Design Thinking in HCI/AI Report
+Description:
+Define Design Thinking and explain how it impacts AI and HCI.
+Include:
+Definition and examples of Design Thinking
+How HCI/AI benefits from Design Thinking
+Whether Design Thinking is appropriate for simple tasks
+References and citations
+Length: 2–3 pages, APA format
+
+Due Date: 02/01/2026 at 8:59 PM (PST)
+WEEK 6: TRADITIONAL CHATBOT PROJECT
+Assignment 6: Prototype Simple Traditional Chatbot Project
+Description:
+Create a traditional (non-LLM-based) chatbot.
+Submit:
+5–7 page APA report describing development lifecycle
+Narrative explanation (not just images)
+ZIP archive of project files
+GitHub repository URL
+It is acceptable if the solution does not fully execute, provided learning and challenges are documented.
+Due Date: 02/08/2026 at 8:59 PM (PST)
+
+WEEK 7: INTEGRATE CHATBOT WITH AI SERVICE
+Assignment 7: Integrate Traditional Chatbot with AI Service
+Description:
+Integrate your chatbot with Azure AI Services (free tier).
+Submit:
+5–7 page APA report
+Discussion of challenges and lessons learned
+ZIP archive of source code
+GitHub repository URL
+Due Date: 02/15/2026 at 8:59 PM (PST)
+
+WEEK 8: CONVERSATIONAL AGENT DESIGN
+Assignment 8: Design a Conversational Agent Exercise
+Description:
+Research conversational agent design methods.
+Include:
+Screenshots if AI tools were used
+Learning process
+Effectiveness of approach
+A simple conversational agent design
+Discussion of Conversational User Experience (CUX)
+Length: 2–3 pages, APA format
+Due Date: 02/22/2026 at 8:59 PM (PST)
+
+WEEK 9: USER-CENTRIC DESIGN REPORT
+Assignment 9: User-Centric Design Principles Report
+Description:
+Research and define user-centered design principles.
+Include:
+Usability heuristics
+Evaluation methods
+AI’s impact on user design
+Everyday examples
+5–7 pages, APA format
+Due Date: 03/01/2026 at 8:59 PM (PST)
+
+WEEK 10: EVALUATING USER-FRIENDLINESS
+Assignment 10: Evaluating User-Friendliness of an Application Report
+Description:
+Define user-friendliness (with citation).
+Discuss:
+Methods of evaluating usability
+Overlap between usability and user-friendliness
+Valuable learning resources
+Ineffective resources
+Length: 5–7 pages, APA format
+Due Date: 03/08/2026 at 9:59 PM (PDT)
+
+WEEK 11: CHATBOTS VS VIRTUAL ASSISTANTS
+Assignment 11: Chatbots Compared to Virtual Assistants Report
+Description:
+Define chatbots and virtual assistants.
+Discuss:
+Similarities and differences
+Interaction examples
+Maturity of technology
+Future predictions (5-year outlook)
+2–4 pages, APA format
+Due Date: 03/15/2026 at 8:59 PM (PDT)
+
+WEEK 12: RECOMMENDATION SYSTEM PROJECT
+Assignment 12: Recommendation System using AI/HCI Project
+Description:
+Create a recommendation system using AI techniques.
+Submit:
+5–7 page APA report
+Theoretical foundations and practical applications
+Modified version of an existing example
+ZIP archive of source code
+GitHub repository URL
+Due Date: 03/22/2026 at 9:59 PM (PDT)
+
+WEEK 13: ETHICAL CHALLENGES REPORT
+Assignment 13: Identifying Ethical Challenges during AI/HCI Design Report
+Description:
+Research methods to identify ethical challenges in AI/HCI design.
+Requirements:
+4 scholarly articles
+Define ethical AI
+Identify challenges and solutions
+2–3 pages, APA format
+Due Date: 03/29/2026 at 8:59 PM (PDT)
+
+WEEK 14: ADAPTIVE UI PROJECT
+Assignment 14: Adaptive UI using AI/HCI Project
+Description:
+Create an adaptive user interface using AI-related technologies.
+Include:
+5–7 page APA report
+Definitions of adaptive UI and intelligent user interfaces
+Discussion of AI-based adaptation
+ZIP archive of solution
+GitHub repository URL
+Disclosure of AI tools used
+Due Date: 04/05/2026 at 9:59 PM (PDT)
+
+WEEK 15: ACCESSIBILITY GUIDELINES REPORT
+Assignment 15: Accessibility Guidelines Report
+Description:
+Discuss legal and ethical implications of accessibility guidelines.
+Include:
+Privacy and transparency discussion
+Screenshots of tools used
+Evaluation of tools
+Personal opinion with justification
+2–3 pages, APA format
+Due Date: 04/12/2026 at 8:59 PM (PDT)
+
+WEEK 16: BIAS IN AI/HCI REPORT AND REFLECTION
+Assignment 16: Bias in AI/HCI Interfaces Report
+Description:
+Discuss AI bias.
+Include:
+Definition with citation
+Causes of bias
+Prevention strategies
+Examples with screenshots
+2–4 pages, APA format
+Due Date: 04/19/2026 at 9:59 PM (PDT)
+
+Assignment 17: Final Reflection Discussion
+Description:
+Reflect on course learning. Discuss:
+What you learned
+What worked well
+What needs improvement
+Most helpful tools
+Least helpful resources
+Reply to two classmates.
+Due Date: 04/22/2026 at 8:59 PM (PDT)
