@@ -1,0 +1,67 @@
+user: What percent of the final grade is the HCI group project in MSAI-631?
+
+assistant: To find the percentage of the final grade that the HCI group project represents, we need to calculate the total points possible for the group project and divide it by the total points possible for the course.
+
+The group project is made up of several assignments with the following point values:
+- Proposal: 50 points
+- Practical Connection: 50 points
+- Project Design Documentation: 100 points
+- Project Source Code: 100 points
+- Presentation: 150 points
+- Results Report: 150 points
+
+Total points possible for the group project: 50 + 50 + 100 + 100 + 150 + 150 = 600 points
+
+According to the grading scale, the maximum possible points for the course is 1000. 
+
+Percentage of the final grade that the HCI group project represents: (600 / 1000) * 100 = 60%
+
+So, the HCI group project is 60% of the final grade in MSAI-631.
+
+user: What percent of the final grade is weekly homework in MSAI-631?
+
+assistant: I am not sure what percent of the final grade is weekly homework in MSAI-631. The provided context does not contain this information. I suggest checking the syllabus or asking the instructor for more details on the grading breakdown.
+
+user: What is the one-day late penalty for homework in MSAI-631?
+
+assistant: I am not sure what the one-day late penalty for homework in MSAI-631 is. The provided context does not mention a specific penalty for late homework. I suggest checking the syllabus or asking the instructor for more information.
+
+user: After how many days late does homework get a zero in MSAI-631?
+
+assistant: I am not sure after how many days late homework gets a zero in MSAI-631, as this information is not provided in the given context. I suggest checking the syllabus or asking the instructor for more information.
+
+user: Are late submissions allowed for the HCI group project in MSAI-631?
+
+assistant: According to the provided context, late submissions are not allowed unless prior arrangements have been made with the instructor. This policy applies to all assignments, including the HCI group project in MSAI-631.
+
+user: What is the final due date for the HCI group project in MSAI-631?
+
+assistant: The final due dates for the HCI group project in MSAI-631 are as follows: 
+- Project Design Documentation: 02/28/2026
+- Project Source Code Submission: 03/01/2026
+- Project Presentation: 03/01/2026
+
+These dates suggest that the final components of the group project are due by March 1, 2026.
+
+user: What are the required deliverables for the HCI group project in MSAI-631?
+
+assistant: The required deliverables for the HCI group project in MSAI-631 include:
+
+1. Proposal (1-2 page document)
+2. Project Design Documentation
+3. Project Source Code Submission
+4. Project Presentation
+
+These deliverables are mentioned in the provided context with their respective point values and deadlines. However, the context also mentions that the group project is made up of five assignments, but only these four deliverables are explicitly mentioned. I am not sure what the fifth assignment is. You may want to check the syllabus or ask the instructor for clarification.
+
+user: What is the minimum passing grade listed for MSAI-631?
+
+assistant: The minimum passing grade for MSAI-631 is not explicitly stated, but according to the grading scale, a grade of C is 700-799 points, and an F is below 699 points. Therefore, it can be inferred that the minimum passing grade is 700 points, which corresponds to a grade of C.
+
+user: What percent of the final grade is participation in MSAI-631?
+
+assistant: The provided context does not mention the percentage of the final grade that participation constitutes in MSAI-631. I suggest checking the syllabus or asking the instructor for this information.
+
+user: How should students contact the MSAI-631 instructor, and what response time is stated?
+
+assistant: To contact the MSAI-631 instructor, students should email Jennifer Merritt at jennifer.merritt@ucumberlands.edu. The context does not specify a response time, so I am not sure what the expected response time is. You may want to check the full syllabus or reach out to the instructor directly for more information.
