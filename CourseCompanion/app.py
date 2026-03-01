@@ -87,11 +87,11 @@ def toggle_dark(history, dark):
     if new_dark:
         css = f'<style>{CSS_DARK}</style>'
         lbl = "☀️ Light"
-        title = '<div style="text-align:center;margin:0 0 4px 0;"><h1 style="color:#f0c040;font-size:1.5rem;font-weight:800;margin:0;">MSAI-631 Course Companion</h1><p style="color:#c8d6e5;font-size:0.82rem;margin:2px 0 0 0;">Ask me anything about your course. <strong>Type below or click an example.</strong></p></div>'
+        title = '<div style="text-align:center;margin:0 0 4px 0;"><h1 style="color:#f0c040;font-size:1.5rem;font-weight:800;margin:0;">MSAI-631 Course Companion</h1><p style="color:#c8d6e5;font-size:0.82rem;margin:2px 0 0 0;">Ask me anything about your course. <strong style="color:#c8d6e5;">Type below or click an example.</strong></p></div>'
     else:
         css = f'<style>{CSS_LIGHT}</style>'
         lbl = "🌙 Dark"
-        title = '<div style="text-align:center;margin:0 0 4px 0;"><h1 style="color:#1b3a5c;font-size:1.5rem;font-weight:800;margin:0;">MSAI-631 Course Companion</h1><p style="color:#2c4a6e;font-size:0.82rem;margin:2px 0 0 0;">Ask me anything about your course. <strong>Type below or click an example.</strong></p></div>'
+        title = '<div style="text-align:center;margin:0 0 4px 0;"><h1 style="color:#1b3a5c;font-size:1.5rem;font-weight:800;margin:0;">MSAI-631 Course Companion</h1><p style="color:#2c4a6e;font-size:0.82rem;margin:2px 0 0 0;">Ask me anything about your course. <strong style="color:#2c4a6e;">Type below or click an example.</strong></p></div>'
     return chat, css, gr.update(value=lbl), title, new_dark
 
 CSS_LIGHT = """
@@ -130,7 +130,7 @@ with gr.Blocks(title="MSAI-631 Course Companion") as demo:
     history_state = gr.State([("assistant", GREETING)])
     is_dark = gr.State(False)
     gr.HTML(LOGO_HTML)
-    title_html = gr.HTML('<div style="text-align:center;margin:0 0 4px 0;"><h1 style="color:#1b3a5c;font-size:1.5rem;font-weight:800;margin:0;">MSAI-631 Course Companion</h1><p style="color:#2c4a6e;font-size:0.82rem;margin:2px 0 0 0;">Ask me anything about your course. <strong>Type below or click an example.</strong></p></div>')
+    title_html = gr.HTML('<div style="text-align:center;margin:0 0 4px 0;"><h1 style="color:#1b3a5c;font-size:1.5rem;font-weight:800;margin:0;">MSAI-631 Course Companion</h1><p style="color:#2c4a6e;font-size:0.82rem;margin:2px 0 0 0;">Ask me anything about your course. <strong style="color:#2c4a6e;">Type below or click an example.</strong></p></div>')
     chat_html = gr.HTML(render_bubbles([("assistant", GREETING)]))
     dynamic_css = gr.HTML("")
     # Input row with mic button inline next to ask/clear/dark
