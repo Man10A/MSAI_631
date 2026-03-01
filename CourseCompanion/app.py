@@ -13,13 +13,7 @@ EXAMPLES = [
     "How is usability defined in this course?",
 ]
 
-FOLLOW_UP = (
-    "\n\n---\nWhat else would you like to know? Try asking about:\n"
-    "- Grading or assignment weights\n"
-    "- Deadlines and the late work policy\n"
-    "- The HCI group project requirements\n"
-    "- Key course concepts"
-)
+FOLLOW_UP = ""  # Removed follow-up suggestions
 
 GREETING = (
     "👋 Hello! Welcome to the MSAI-631 Course Companion!\n\n"
@@ -145,15 +139,7 @@ with gr.Blocks(title="MSAI-631 Course Companion") as demo:
         send_btn = gr.Button("Ask 🔎", variant="primary", scale=1, min_width=80)
         clear_btn = gr.Button("Clear 🔄", variant="secondary", scale=1, min_width=80)
         dark_btn = gr.Button("🌙 Dark", variant="secondary", scale=1, min_width=80)
-        gr.HTML('''<button onclick="alert('Voice input coming soon! This feature will allow you to speak your question.')"
-                    title="Voice input - coming soon"
-                    aria-label="Voice input coming soon"
-                    style="background:#1b3a5c;color:#fff;border:none;border-radius:8px;
-                           padding:9px 12px;font-size:0.82rem;cursor:pointer;
-                           display:flex;align-items:center;gap:5px;font-weight:600;
-                           white-space:nowrap;min-width:70px;justify-content:center;">
-                  🎤 Mic
-                </button>''')
+        mic_btn = gr.Button("🎤 Mic", variant="secondary", scale=1, min_width=80)
     gr.HTML('<p style="color:#1b3a5c;font-size:0.82rem;font-weight:700;margin:6px 0 4px 0;">👇 Click any question to ask it instantly:</p>')
     with gr.Row(elem_classes=["example-row"]):
         ex_btn1 = gr.Button(EXAMPLES[0], variant="secondary", size="sm")
@@ -166,6 +152,7 @@ with gr.Blocks(title="MSAI-631 Course Companion") as demo:
     send_btn.click(respond, [msg_box, history_state, is_dark], [chat_html, history_state, msg_box])
     msg_box.submit(respond, [msg_box, history_state, is_dark], [chat_html, history_state, msg_box])
     clear_btn.click(clear_chat, [is_dark], [chat_html, history_state])
+    mic_btn.click(lambda: gr.Info("🎤 Voice input coming soon! This feature will allow you to speak your question."), [], [])
     dark_btn.click(toggle_dark, [history_state, is_dark], [chat_html, dynamic_css, dark_btn, title_html, is_dark])
     ex_btn1.click(lambda h,d: (yield from use_example(EXAMPLES[0],h,d)), [history_state,is_dark], [chat_html,history_state])
     ex_btn2.click(lambda h,d: (yield from use_example(EXAMPLES[1],h,d)), [history_state,is_dark], [chat_html,history_state])
