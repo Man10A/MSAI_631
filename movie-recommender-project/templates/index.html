@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Movie Recommender</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, sans-serif;
+            background-color: #1a1a2e;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .card {
+            background-color: #16213e;
+            border: 1px solid #0f3460;
+            border-radius: 16px;
+            padding: 48px 40px;
+            max-width: 540px;
+            width: 100%;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.6);
+        }
+
+        .logo {
+            font-size: 3rem;
+            text-align: center;
+            margin-bottom: 8px;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 1.8rem;
+            color: #e94560;
+            margin-bottom: 8px;
+        }
+
+        .tagline {
+            text-align: center;
+            color: #888;
+            font-size: 0.9rem;
+            margin-bottom: 36px;
+        }
+
+        label {
+            display: block;
+            color: #aaa;
+            font-size: 0.85rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 8px;
+        }
+
+        .input-wrap { position: relative; }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 14px 18px;
+            border-radius: 10px;
+            border: 2px solid #0f3460;
+            background-color: #0f0f1a;
+            color: #ffffff;
+            font-size: 1rem;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+
+        input[type="text"]:focus {
+            border-color: #e94560;
+        }
+
+        input::placeholder { color: #444; }
+
+        #suggestions {
+            position: absolute;
+            top: calc(100% + 4px);
+            left: 0; right: 0;
+            background-color: #16213e;
+            border: 1px solid #0f3460;
+            border-radius: 10px;
+            z-index: 99;
+            overflow: hidden;
+            display: none;
+        }
+
+        #suggestions div {
+            padding: 11px 16px;
+            color: #ccc;
+            cursor: pointer;
+            font-size: 0.9rem;
+        }
+
+        #suggestions div:hover {
+            background-color: #0f3460;
+            color: #fff;
+        }
+
+        button[type="submit"] {
+            margin-top: 14px;
+            width: 100%;
+            padding: 14px;
+            background-color: #e94560;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+
+        button[type="submit"]:hover { background-color: #c73652; }
+
+        .error {
+            margin-top: 16px;
+            background-color: #2a0a10;
+            border-left: 4px solid #e94560;
+            border-radius: 8px;
+            padding: 12px 16px;
+            color: #f08080;
+            font-size: 0.88rem;
+        }
+
+        .chips {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 20px;
+            justify-content: center;
+        }
+
+        .chip {
+            background-color: #0f3460;
+            color: #aac4ff;
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            cursor: pointer;
+            border: none;
+            transition: background-color 0.2s;
+        }
+
+        .chip:hover { background-color: #e94560; color: white; }
+
+        .hint {
+            margin-top: 16px;
+            text-align: center;
+            font-size: 0.76rem;
+            color: #444;
+        }
+
+        .sugg-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            margin-top: 10px;
+        }
+
+        .sugg-list button {
+            background-color: #0f3460;
+            border: none;
+            color: #aac4ff;
+            padding: 5px 12px;
+            border-radius: 16px;
+            font-size: 0.8rem;
+            cursor: pointer;
+            width: auto;
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+<div class="card">
+    <div class="logo">🎬</div>
+    <h1>AI Movie Recommender</h1>
+    <p class="tagline">Content-based AI — finds movies similar to what you love</p>
+
+    <form action="/recommend" method="POST" id="form">
+        abel for="movie">What movie do you love?</label>
+        <div class="input-wrap">
+            <input
+                type="text"
+                id="movie"
+                name="movie"
+                placeholder="e.g. The Dark Knight, Inception, Toy Story..."
+                value="{{ movie or '' }}"
+                autocomplete="off"
+                required
+            />
+            <div id="suggestions"></div>
+        </div>
+        <button type="submit">Find Similar Movies &rarr;</button>
+    </form>
+
+    {% if error %}
+    <div class="error">
+        {{ error }}
+        {% if suggestions %}
+        <div class="sugg-list">
+            {% for s in suggestions %}
+            <button onclick="fillAndSubmit('{{ s }}')">{{ s }}</button>
+            {% endfor %}
+        </div>
+        {% endif %}
+    </div>
+    {% endif %}
+
+    <div class="chips">
+        <button class="chip" onclick="fillAndSubmit('The Dark Knight')">The Dark Knight</button>
+        <button class="chip" onclick="fillAndSubmit('Inception')">Inception</button>
+        <button class="chip" onclick="fillAndSubmit('The Avengers')">The Avengers</button>
+        <button class="chip" onclick="fillAndSubmit('Interstellar')">Interstellar</button>
+        <button class="chip" onclick="fillAndSubmit('The Godfather')">The Godfather</button>
+        <button class="chip" onclick="fillAndSubmit('Toy Story')">Toy Story</button>
+        <button class="chip" onclick="fillAndSubmit('Parasite')">Parasite</button>
+        <button class="chip" onclick="fillAndSubmit('Forrest Gump')">Forrest Gump</button>
+    </div>
+
+    <p class="hint">Click a chip above or type any movie title</p>
+</div>
+
+<script>
+function fillAndSubmit(title) {
+    document.getElementById('movie').value = title;
+    document.getElementById('form').submit();
+}
+
+const input = document.getElementById('movie');
+const box = document.getElementById('suggestions');
+let timer;
+
+input.addEventListener('input', () => {
+    clearTimeout(timer);
+    const q = input.value.trim();
+    if (q.length < 2) { box.style.display = 'none'; return; }
+    timer = setTimeout(() => {
+        fetch('/autocomplete?q=' + encodeURIComponent(q))
+            .then(r => r.json())
+            .then(data => {
+                if (!data.length) { box.style.display = 'none'; return; }
+                box.innerHTML = data.map(t =>
+                    `<div onclick="fillAndSubmit('${t.replace(/'/g, "\\'")}')"}>🎬 ${t}</div>`
+                ).join('');
+                box.style.display = 'block';
+            });
+    }, 250);
+});
+
+document.addEventListener('click', e => {
+    if (!input.contains(e.target)) box.style.display = 'none';
+});
+</script>
+</body>
+</html>
